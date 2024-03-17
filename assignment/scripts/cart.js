@@ -14,9 +14,12 @@ for(let i=0;i<basket.length;i++){
 }
 }
 
-
-
-
+function empty(){
+    while (basket.length > 0) {     
+    basket.pop();
+}
+}
+console.log(basket);
 
 
 
